@@ -1,3 +1,8 @@
+---
+name: Meeting Summary
+description: Produces a structured summary from meeting notes or a transcript, extracting key decisions, action items, and discussion highlights.
+---
+
 # Meeting Summary
 
 ## Description

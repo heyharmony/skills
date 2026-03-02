@@ -1,3 +1,8 @@
+---
+name: Translation
+description: Translates text between languages while preserving tone, context, and formatting.
+---
+
 # Translation
 
 ## Description

@@ -1,3 +1,8 @@
+---
+name: Research
+description: Gathers and synthesises information on a given topic, producing a concise briefing with sources.
+---
+
 # Research
 
 ## Description

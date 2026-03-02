@@ -1,3 +1,8 @@
+---
+name: Email Drafting
+description: Drafts professional emails based on a brief, adjusting tone and structure to match the intended audience and purpose.
+---
+
 # Email Drafting
 
 ## Description

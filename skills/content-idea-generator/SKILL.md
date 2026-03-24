@@ -1,6 +1,6 @@
 ---
-name: "Content Idea Generator"
-description: "Generates a prioritized pipeline of content ideas grounded in customer conversations, market trends, and industry insights — covering blog posts, videos, webinars, case studies, and social content. Trigger on: content ideas, content brainstorm, what should we write about, content pipeline, blog ideas, thought leadership, content planning."
+name: "Brainstorm Content Ideas"
+description: "Brainstorm a prioritized pipeline of content ideas — blog posts, videos, webinars, case studies, and social content — grounded in customer conversations and market trends. Trigger on: content ideas, content brainstorm, what should we write about, content pipeline, blog ideas, thought leadership, content planning."
 dependencies: []
 ---
 

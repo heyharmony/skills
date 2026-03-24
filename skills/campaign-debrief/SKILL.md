@@ -1,6 +1,6 @@
 ---
-name: "Campaign Debrief"
-description: "Analyzes campaign performance — objectives, metrics, and qualitative insights — to produce a structured post-campaign analysis with what worked, what didn't, and prioritized recommendations. Trigger on: campaign debrief, campaign results, campaign analysis, post-campaign review, what worked, campaign performance, next campaign planning."
+name: "Debrief Campaign Results"
+description: "Debrief campaign results — what worked, what didn't, and what to do next. Produce a structured post-campaign analysis with metrics, qualitative insights, and prioritized recommendations. Trigger on: campaign debrief, campaign results, how did the campaign do, post-campaign review, what worked, campaign performance, next campaign planning."
 dependencies: []
 ---
 

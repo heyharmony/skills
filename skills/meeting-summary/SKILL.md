@@ -1,6 +1,6 @@
 ---
-name: "Meeting Summary"
-description: "Generates a structured post-meeting summary — decisions, action items, key moments, and sentiment — from a Harmony transcript. Trigger on: meeting summary, recap, debrief, meeting notes, what did we decide, what happened in that meeting."
+name: "Summarize This Meeting"
+description: "Summarize this meeting into a structured brief — decisions, action items, key moments, and sentiment — from a Harmony transcript. Scannable in 60 seconds. Trigger on: meeting summary, recap, debrief, meeting notes, what did we decide, what happened in that meeting, summarize the call."
 dependencies: []
 ---
 

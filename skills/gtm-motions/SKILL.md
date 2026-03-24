@@ -1,5 +1,5 @@
 ---
-name: "GTM Motion Planner"
+name: "Pick Growth Channels"
 description: "Evaluate and select the right mix of go-to-market motions — Inbound, Outbound, Paid, Community, Partners, ABM, and PLG — based on your product, market, and resources. Trigger on: GTM motions, marketing channels, acquisition strategy, inbound vs outbound, channel mix, PLG strategy, growth motions, customer acquisition plan."
 dependencies: []
 ---

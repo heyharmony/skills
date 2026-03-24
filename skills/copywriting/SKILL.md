@@ -1,5 +1,5 @@
 ---
-name: "Copywriting"
+name: "Write Landing Page Copy"
 description: "Write, rewrite, or improve marketing copy for any page — homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Use when the user wants to write copy, improve copy, rewrite a page, create headlines, CTAs, hero sections, taglines, subheadlines, or make copy more compelling. Trigger on: write copy for, improve this copy, rewrite this page, marketing copy, headline help, CTA copy, value proposition, tagline, subheadline, hero section copy, above the fold, make this more compelling, help me describe my product."
 dependencies: []
 ---

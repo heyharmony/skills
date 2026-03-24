@@ -1,5 +1,5 @@
 ---
-name: "Product Feedback Miner"
+name: "Mine Product Feedback From Calls"
 description: "Extracts, categorizes, and synthesizes feedback from conversations, support tickets, reviews, and other sources into prioritized product insights — identifying patterns, segmenting by customer type, and separating signal from noise. Trigger on: customer feedback, feature requests, product feedback, pain points, user complaints, churn signals, feedback analysis."
 dependencies: []
 ---

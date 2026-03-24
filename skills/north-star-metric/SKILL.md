@@ -1,5 +1,5 @@
 ---
-name: "North Star Metric"
+name: "Define North Star Metric"
 description: "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classifies the business game (Attention, Transaction, Productivity) and validates against 7 criteria. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure. Trigger on: North Star metric, north star, key metric, what to measure, metrics framework, OMTM, input metrics."
 dependencies: []
 ---

@@ -1,5 +1,5 @@
 ---
-name: "Beachhead Market Finder"
+name: "Find Beachhead Market"
 description: "Identify your first beachhead market segment — the smallest winnable market with burning pain, willingness to pay, achievable dominance, and expansion potential. Trigger on: beachhead, first market, initial segment, where to launch, crossing the chasm, market entry, first customers, niche market, market selection."
 dependencies: []
 ---

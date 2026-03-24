@@ -1,5 +1,5 @@
 ---
-name: "Release Notes Writer"
+name: "Write Release Notes"
 description: "Turn tickets, PRDs, changelogs, or Git logs into polished user-facing release notes — organized by category, written for humans, not engineers. Trigger on: release notes, changelog, what shipped, product update, version notes, what's new, ship log, product announcement."
 dependencies: []
 ---

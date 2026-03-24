@@ -1,5 +1,5 @@
 ---
-name: "Stakeholder Map Builder"
+name: "Map Deal Stakeholders"
 description: "Build a stakeholder map with a Power × Interest grid, identify engagement strategies per quadrant, flag conflicts, and generate a tailored communication plan. Trigger on: stakeholder map, stakeholder analysis, stakeholder management, communication plan, stakeholder engagement, RACI, who to involve, cross-functional alignment."
 dependencies: []
 ---

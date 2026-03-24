@@ -1,6 +1,6 @@
 ---
-name: "Weekly Digest"
-description: "Generates a comprehensive weekly summary of everything that happened across conversations, meetings, and communications — organized by impact, highlighting decisions, action items, risks, wins, and what's coming next. Trigger on: weekly digest, what happened this week, weekly summary, week recap, what did I miss this week."
+name: "Compile Weekly Digest"
+description: "Compile a weekly summary of everything that happened across meetings and conversations — decisions, action items, risks, wins, and what's coming next. Trigger on: weekly digest, what happened this week, weekly summary, week recap, what did I miss this week, catch me up on the week."
 dependencies: []
 ---
 

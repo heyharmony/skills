@@ -1,6 +1,6 @@
 ---
-name: "Conversation Translation"
-description: "Translates Harmony conversation content — transcripts, summaries, or action items — into a target language while preserving tone, structure, and speaker attribution. Trigger on: translate, translation, convert to Spanish, in French, translate transcript, translate summary."
+name: "Translate Meeting Transcript"
+description: "Translate meeting transcripts, summaries, or action items into a target language — preserve tone, structure, and speaker attribution. Trigger on: translate, translation, convert to Spanish, in French, translate transcript, translate this summary, meeting in another language."
 dependencies: []
 ---
 

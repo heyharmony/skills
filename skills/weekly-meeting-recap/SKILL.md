@@ -1,6 +1,6 @@
 ---
-name: "Weekly Meeting Recap"
-description: "Consolidates all conversations from the past week into a structured summary grouped by meeting type — highlighting key decisions, commitments, cross-meeting themes, and emerging signals. Trigger on: weekly meeting recap, this week's meetings, summarize my meetings, meeting summary this week, what happened in my meetings."
+name: "Recap This Week's Meetings"
+description: "Recap all meetings from the past week in one structured summary — grouped by meeting type, highlighting decisions, commitments, and cross-meeting themes. Trigger on: weekly meeting recap, this week's meetings, summarize my meetings, meeting summary this week, what happened in my meetings."
 dependencies: []
 ---
 

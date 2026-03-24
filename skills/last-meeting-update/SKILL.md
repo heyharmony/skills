@@ -1,5 +1,5 @@
 ---
-name: "Last Meeting Catch-Up"
+name: "Brief Me on Last Meeting"
 description: "Delivers a quick, conversational brief on what was discussed in your last meeting with a specific person, team, or client — decisions, open items, commitments, and a suggested opener for next time. Trigger on: last meeting with, update me on my call, what did we talk about, brief me before my meeting, what was decided."
 dependencies: []
 ---

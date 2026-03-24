@@ -1,5 +1,5 @@
 ---
-name: "Value Proposition"
+name: "Design Value Proposition"
 description: "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product. Trigger on: value proposition, value prop, customer value, JTBD value, value map, why choose us."
 dependencies: []
 ---

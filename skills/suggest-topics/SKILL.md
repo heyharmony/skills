@@ -1,6 +1,6 @@
 ---
-name: "Meeting Topic Suggester"
-description: "Analyzes conversation history and action items to recommend prioritized agenda topics for upcoming meetings — flagging blockers, overdue commitments, and deferred discussions. Trigger on: what should we discuss, meeting agenda, topic suggestions, what did we leave unresolved, what topics are we missing, meeting prep."
+name: "Suggest Topics for Next Meeting"
+description: "Suggest prioritized agenda topics for your next meeting based on conversation history and open action items — flag blockers, overdue commitments, and deferred discussions. Trigger on: what should we discuss, meeting agenda, topic suggestions, what did we leave unresolved, what topics are we missing, suggest topics."
 dependencies: []
 ---
 

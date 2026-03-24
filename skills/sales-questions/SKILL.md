@@ -1,6 +1,6 @@
 ---
-name: "Sales Question Generator"
-description: "Generates targeted sales discovery questions, objection responses, and personalized outreach language tailored to prospect context, industry, and role — supporting SPIN, Challenger, and MEDDPICC methodologies. Trigger on: prospect research, sales discovery, outreach planning, objection handling, cold email, pipeline advancement, deal velocity."
+name: "Draft Discovery Questions"
+description: "Draft targeted discovery questions, objection responses, and outreach language tailored to prospect context, industry, and role — supporting SPIN, Challenger, and MEDDPICC. Trigger on: discovery questions, what should I ask, sales discovery, objection handling, prospect research, outreach planning, how to open the call."
 dependencies: []
 ---
 

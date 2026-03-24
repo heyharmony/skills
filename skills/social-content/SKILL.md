@@ -1,5 +1,5 @@
 ---
-name: "Social Content"
+name: "Plan Social Media Calendar"
 description: "Create, plan, and optimize social media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook. Covers posts, threads, carousels, content calendars, repurposing, and engagement strategy. Use when creating social media content, building a content calendar, repurposing content across platforms, or growing a social media presence. Trigger on: LinkedIn post, Twitter thread, social media, content calendar, social scheduling, engagement, viral content, what should I post, repurpose this content, tweet ideas, LinkedIn carousel, social media strategy, grow my following."
 dependencies: []
 ---

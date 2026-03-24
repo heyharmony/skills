@@ -1,5 +1,5 @@
 ---
-name: "Action Item Extractor"
+name: "Extract Action Items"
 description: "Extract every action item from your last meeting — who owns it, what's the deadline, and what's the context. Trigger on: action items, what came out of the meeting, meeting actions, follow-ups from the call, what did we agree to do, meeting takeaways, tasks from the meeting, who's doing what, meeting outcomes."
 dependencies: []
 ---

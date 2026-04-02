@@ -11,6 +11,12 @@ connectors:
     reason: "Cross-references meeting activity with deal stage and close date to quantify momentum impact on forecast accuracy"
   - name: "HubSpot"
     reason: "Pulls engagement scoring and activity timelines to build a momentum index over time"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

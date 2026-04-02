@@ -11,6 +11,12 @@ connectors:
     reason: "Issue tracking, sprint metrics, team workload distribution, velocity trends"
   - name: "Slack"
     reason: "Cross-functional communication patterns, feedback channel activity, team collaboration signals"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

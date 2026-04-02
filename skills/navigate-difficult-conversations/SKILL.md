@@ -9,6 +9,12 @@ connectors:
     reason: "Helps schedule adequate time and private space for sensitive conversations"
   - name: "Notion"
     reason: "Stores conversation notes, warnings, and documentation for future reference"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 ## Purpose

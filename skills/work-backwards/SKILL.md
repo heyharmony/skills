@@ -9,6 +9,12 @@ connectors:
     reason: "Share and discuss the press release, gather feedback from team"
   - name: "Linear"
     reason: "Link completed press release to product roadmap and engineering tickets"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

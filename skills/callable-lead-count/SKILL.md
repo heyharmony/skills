@@ -11,6 +11,12 @@ connectors:
     reason: "Track email engagement patterns to verify leads are responding and receptive to outreach"
   - name: "Slack"
     reason: "Push real-time callable lead counts and summaries to sales channels for team alignment"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

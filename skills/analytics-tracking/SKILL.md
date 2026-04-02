@@ -20,6 +20,12 @@ triggerKeywords:
   - what should I track
   - analytics implementation
   - data quality
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Set Up Analytics Tracking

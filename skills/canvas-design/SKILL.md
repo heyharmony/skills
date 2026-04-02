@@ -2,6 +2,12 @@
 name: "Canvas Design"
 description: "Create museum-quality visual designs as PDF or PNG files that communicate sophisticated ideas through form, space, and color alone. Trigger on: visual design, one-pager, infographic, mood board, brand identity, visual report, design artifact, create a poster."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

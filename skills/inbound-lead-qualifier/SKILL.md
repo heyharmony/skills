@@ -11,6 +11,12 @@ connectors:
     reason: "Post real-time alerts to sales channel when a high-quality lead comes in so the team responds within minutes instead of hours"
   - name: "Gmail"
     reason: "Track response time to inbound inquiries; identify which leads convert and when to adjust qualification criteria"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

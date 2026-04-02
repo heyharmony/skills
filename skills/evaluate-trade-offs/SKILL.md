@@ -9,6 +9,12 @@ connectors:
     reason: "Async discussion of trade-offs with leadership; surface disagreements and frame them as tradeoff analysis"
   - name: "Google Drive"
     reason: "Create decision matrices and collaborative trade-off analysis with weighted criteria"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

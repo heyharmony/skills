@@ -11,6 +11,12 @@ connectors:
     reason: "Analyze support conversations and feedback mentions to inform survey questions"
   - name: "Intercom"
     reason: "Deploy targeted in-app surveys to specific user segments; measure engagement with survey"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Web Artifacts Builder"
 description: "Build interactive web dashboards, data visualizations, and internal tools as single-file HTML artifacts using React, TypeScript, and Tailwind CSS. Trigger on: build web dashboard, create interactive tool, data visualization, web artifact, interactive prototype, internal tool UI."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

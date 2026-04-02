@@ -9,6 +9,12 @@ connectors:
     reason: "Measure loop velocity - track conversion rates between loop stages (action → output → reinvestment)"
   - name: "Salesforce"
     reason: "Segment users by loop type participation to measure revenue impact of growth loop activation"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

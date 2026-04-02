@@ -11,6 +11,12 @@ connectors:
     reason: "Real-time team alignment on pivot decision and execution"
   - name: "Google Calendar"
     reason: "Coordinates investor updates and team discussions about direction change"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

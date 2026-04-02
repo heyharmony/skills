@@ -13,6 +13,12 @@ connectors:
     reason: "Share pricing decision framework and recommendation with leadership team for collaborative input"
   - name: "Notion"
     reason: "Pull competitor pricing data and strategic docs for positioning context"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

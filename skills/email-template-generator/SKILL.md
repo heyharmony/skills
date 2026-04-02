@@ -11,6 +11,12 @@ connectors:
     reason: "Share templates with sales team so everyone uses consistent, tested messaging across outreach"
   - name: "Notion"
     reason: "Create a shared template library where reps can view templates, results, and notes on which ones work for each persona"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

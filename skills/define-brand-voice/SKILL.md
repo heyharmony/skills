@@ -2,6 +2,12 @@
 name: "Define Brand Voice"
 description: "Extract your brand's authentic voice from real customer conversations, sales calls, and team discussions — then codify it into tone guidelines, vocabulary lists, and a do/don't matrix every content creator can follow. Trigger on: brand voice, tone of voice, brand guidelines, writing style guide, brand personality, messaging tone, voice and tone."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Define Brand Voice

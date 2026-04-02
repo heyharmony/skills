@@ -11,6 +11,12 @@ connectors:
     reason: "Extract deal-closing emails and proposal language from past wins to understand what worked and why"
   - name: "Slack"
     reason: "Pull deal celebration posts and team feedback to surface win patterns and buyer personality traits"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

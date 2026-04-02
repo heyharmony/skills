@@ -9,6 +9,12 @@ connectors:
   - Slack
   - Gmail
   - Google Drive
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Popup CRO: Design Popups That Convert

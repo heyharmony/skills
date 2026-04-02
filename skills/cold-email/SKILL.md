@@ -2,6 +2,12 @@
 name: "Write Cold Email"
 description: "Write B2B cold emails and follow-up sequences that get replies. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. Use when writing cold outreach, prospecting emails, SDR emails, or sales development emails. Trigger on: cold email, cold outreach, prospecting email, outbound email, email to leads, reach out to prospects, sales email, follow-up email sequence, nobody's replying to my emails, how do I write a cold email."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

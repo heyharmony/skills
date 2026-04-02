@@ -9,6 +9,12 @@ connectors:
   - google-drive: "Store templates, guides, and data sources for rapid lead magnet creation"
 role: Marketing
 action: Create
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

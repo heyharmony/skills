@@ -2,6 +2,12 @@
 name: "Design Referral Program"
 description: "Design a referral program that turns organic customer advocacy into a scalable growth channel. Mines customer calls for advocacy signals and structures incentives, sharing mechanics, and tracking. Trigger on: referral program, customer referrals, refer-a-friend, viral loop, advocacy program, word of mouth, referral incentive, customer referral program."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

@@ -10,6 +10,12 @@ connectors:
   - Gmail: Mine customer conversations for authority angles, pain points, and language patterns AI models cite
   - HubSpot: Extract customer data and deal language to validate AI-optimized messaging aligns with buyer conversations
   - Notion: Reference content calendars and editorial guidelines to batch optimize upcoming content
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

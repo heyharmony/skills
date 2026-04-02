@@ -13,6 +13,12 @@ connectors:
     reason: "Notifies team of responses and high-intent replies; posts summaries of personalized campaign results"
   - name: "Google Drive"
     reason: "Stores prospect lists and personalization data; enables bulk template generation and sharing"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Centralized interview rubric, scoring templates, and team calibration"
   - name: "Gmail"
     reason: "Candidate communication, feedback sharing with interview panel"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

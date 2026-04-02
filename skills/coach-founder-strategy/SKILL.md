@@ -2,6 +2,12 @@
 name: "Coach Founder Strategy"
 description: "Surface strategic blind spots and decision patterns by synthesizing themes across investor calls, team meetings, customer conversations, and board discussions. Provides stage-appropriate coaching frameworks for PMF, hiring, fundraising, and growth decisions. Trigger on: founder coaching, strategic review, blind spots, decision patterns, startup strategy, founder debrief, strategic priorities, founder reflection."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Hosts integration guides, technical specs, partner agreements"
   - name: "Intercom"
     reason: "Manages developer support tickets and feature requests from third parties"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

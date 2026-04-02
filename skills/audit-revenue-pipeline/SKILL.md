@@ -2,6 +2,12 @@
 name: "Audit Revenue Pipeline"
 description: "Cross-reference pipeline forecasts from sales meetings with actual customer conversation signals to expose forecast risk, stuck deals, and conversion gaps. Flags where rep confidence diverges from prospect reality. Trigger on: pipeline review, revenue pipeline, forecast accuracy, deal inspection, pipeline hygiene, pipeline audit, sales forecast, conversion analysis, stage velocity, pipeline health, revenue operations."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

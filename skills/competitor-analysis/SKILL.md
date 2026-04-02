@@ -2,6 +2,12 @@
 name: "Scan Competitive Landscape"
 description: "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies 5 direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities. Trigger on: competitor analysis, competitive landscape, competitive research, competitive brief, differentiation."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Stores running updates, recommendations, and leadership communication history"
   - name: "Google Drive"
     reason: "Pulls context on company strategy and executive priorities"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

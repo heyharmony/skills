@@ -9,6 +9,12 @@ connectors:
     reason: "Reference content calendar, brand voice guidelines, and past top-performing posts"
   - name: "HubSpot"
     reason: "Pull audience persona data and campaign context to inform messaging"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Purpose

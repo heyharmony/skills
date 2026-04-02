@@ -2,6 +2,12 @@
 name: "Flag Churn Risks"
 description: "Detect early churn signals from customer success calls, QBRs, and internal account reviews — before customers cancel. Score accounts by risk level using conversation sentiment, engagement patterns, and escalation language. Trigger on: churn risk, at-risk accounts, customer retention, churn signals, save offers, account health, customer health score, churn prevention, renewal risk, customer sentiment."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Customer Success"
 ---
 
 ## Purpose

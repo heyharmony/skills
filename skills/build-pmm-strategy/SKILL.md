@@ -2,6 +2,12 @@
 name: "Build PMM Strategy"
 description: "Create a product marketing strategy — positioning, messaging, competitive differentiation, and sales enablement — grounded in customer voice from sales calls and product feedback sessions. Trigger on: product marketing strategy, PMM plan, positioning framework, messaging house, competitive messaging, sales enablement content, product narrative, go-to-market messaging."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

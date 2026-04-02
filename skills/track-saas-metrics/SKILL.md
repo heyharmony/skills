@@ -2,6 +2,12 @@
 name: "Track SaaS Metrics"
 description: "Create a single source of truth for SaaS metrics by extracting ARR, churn, NRR, CAC, LTV, and other KPIs discussed across leadership meetings, board calls, and investor updates. Flags definition inconsistencies and benchmarks against stage-appropriate targets. Trigger on: SaaS metrics, MRR, ARR, churn rate, net revenue retention, NRR, CAC, LTV, Rule of 40, magic number, SaaS benchmarks, unit economics, quick ratio, payback period."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Tracks offsite logistics and action items that result from sessions"
   - name: "Linear"
     reason: "Captures technical decisions and roadmap alignments made during offsite"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

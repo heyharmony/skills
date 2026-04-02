@@ -13,6 +13,12 @@ connectors:
     reason: "Pulls PR/commit data, code review time, and deployment frequency to measure shipping velocity across branches and teams"
   - name: "Notion"
     reason: "Tracks sprint goals, scope, and roadmap commitments to compare planned vs. actual delivery across multiple teams"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

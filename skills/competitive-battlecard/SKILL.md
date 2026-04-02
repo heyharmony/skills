@@ -2,6 +2,12 @@
 name: "Build Competitive Battlecard"
 description: "Create a sales-ready competitive battlecard — positioning, feature comparison, objection handling, landmines, and win/loss patterns — for any competitor. Trigger on: battlecard, competitive analysis, competitor comparison, why not competitor X, competitive positioning, sales enablement, compete sheet."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

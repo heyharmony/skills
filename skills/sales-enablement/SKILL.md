@@ -9,6 +9,12 @@ connectors:
   - slack
   - gmail
   - google-drive
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

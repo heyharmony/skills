@@ -2,6 +2,12 @@
 name: "Theme Factory"
 description: "10 professionally curated color + typography themes for styling presentations, documents, and artifacts. Pick a theme, apply to your work. Themes: Ocean Depths, Sunset Boulevard, Forest Canopy, Modern Minimalist, Golden Hour, Arctic Frost, Desert Rose, Tech Innovation, Botanical Garden, Midnight Galaxy. Trigger on: apply a theme, pick a theme, color theme, professional theme, visual theme, design theme..."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

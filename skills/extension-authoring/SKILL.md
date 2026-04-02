@@ -11,6 +11,12 @@ connectors:
     reason: "Track feature requirements and technical debt related to extension development; reference browser compatibility requirements and bug reports"
   - name: "Notion"
     reason: "Access product specs, design docs, and browser extension guidelines to ensure compliance with platform policies"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

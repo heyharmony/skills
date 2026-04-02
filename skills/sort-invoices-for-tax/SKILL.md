@@ -11,6 +11,12 @@ connectors:
     reason: "Surface invoice emails and receipt confirmations for completeness checks"
   - name: "Notion"
     reason: "Reference vendor lists, budget categories, and past tax filing notes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

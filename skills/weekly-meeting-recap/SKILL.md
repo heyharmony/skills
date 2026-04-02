@@ -2,6 +2,12 @@
 name: "Recap This Week's Meetings"
 description: "Recap all meetings from the past week in one structured summary — grouped by meeting type, highlighting decisions, commitments, and cross-meeting themes. Trigger on: weekly meeting recap, this week's meetings, summarize my meetings, meeting summary this week, what happened in my meetings."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

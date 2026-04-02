@@ -11,6 +11,12 @@ connectors:
     reason: "Store shared sales resources, call recordings, and training materials for team access"
   - name: "Notion"
     reason: "Build your sales operations hub—pipeline templates, sales playbook, comp plan documentation, ramp checklists"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Review meeting patterns and communication rhythm"
   - name: "Google Drive"
     reason: "Access PM's documents and assess writing clarity and decision quality"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

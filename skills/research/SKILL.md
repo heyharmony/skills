@@ -2,6 +2,12 @@
 name: "Research Topic From Conversation"
 description: "Research a topic that surfaced in a Harmony conversation and produce a structured briefing with findings, sources, and next steps — grounded in what was actually discussed. Trigger on: research this, look into, brief me on, dig into, what do we know about, can you find out more about."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

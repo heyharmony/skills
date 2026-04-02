@@ -2,6 +2,12 @@
 name: "Analyze Product Metrics"
 description: "Define, track, and interpret product KPIs across lifecycle stages. Select the right metric framework (AARRR, North Star, HEART), design dashboard layers, run cohort analysis, and connect metric movements to product decisions discussed in team meetings. Trigger on: product metrics, KPI definition, retention analysis, cohort analysis, dashboard design, metric framework, AARRR, North Star metric, product analytics, feature adoption."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

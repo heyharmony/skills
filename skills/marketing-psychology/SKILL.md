@@ -8,6 +8,12 @@ connectors:
   - Slack
   - Gmail
   - Notion
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

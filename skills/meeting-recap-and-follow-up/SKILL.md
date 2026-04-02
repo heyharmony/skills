@@ -2,6 +2,12 @@
 name: "Recap Meeting and Draft Follow-Up"
 description: "Generate a structured meeting summary — decisions, action items, key moments, and open questions — then draft a follow-up email ready to send to attendees. Trigger on: meeting recap, meeting summary, what happened in my meeting, summarize the call, follow-up email, after-call summary, post-meeting notes, debrief my meeting."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Design Product Experiment"
 description: "Turn product hunches into rigorous experiments — write testable hypotheses, define success metrics, estimate sample sizes, and establish stopping rules to reduce bias and accelerate learning. Trigger on: product experiment, A/B test, hypothesis, experiment design, test this idea, how do we validate, sample size, success metric."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

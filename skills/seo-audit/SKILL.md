@@ -12,6 +12,12 @@ connectors:
     reason: Correlate page performance metrics with conversions and lead quality
   - name: Notion
     reason: Review content calendars, SEO documentation, and historical audit findings
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # SEO Audit

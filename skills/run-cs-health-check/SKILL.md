@@ -2,6 +2,12 @@
 name: "Run CS Health Check"
 description: "Assess customer account health by analyzing conversation patterns — engagement frequency, sentiment trends, feature adoption discussions, executive sponsor involvement, and expansion signals across onboarding calls, QBRs, and support escalations. Trigger on: customer health, account health, CS health check, QBR prep, renewal risk, customer success review, account review, expansion signals, customer sentiment, health score, account health score."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Customer Success"
 ---
 
 ## Purpose

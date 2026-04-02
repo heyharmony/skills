@@ -9,6 +9,12 @@ connectors:
     reason: "Map buying committee relationships and communication history with all stakeholders"
   - name: "Google Calendar"
     reason: "Coordinate complex multi-stakeholder meetings and executive sponsor alignment sessions"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

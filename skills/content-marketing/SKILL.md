@@ -11,6 +11,12 @@ connectors:
     reason: "Pull company/contact notes, deal stage patterns, and sales activity to identify which content assets sales teams are asking for"
   - name: "Notion"
     reason: "Reference existing content calendar and editorial guidelines to avoid duplicate ideas and maintain consistent voice"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

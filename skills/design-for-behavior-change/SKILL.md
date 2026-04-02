@@ -11,6 +11,12 @@ connectors:
     reason: "Track behavior change metrics: adoption rates, feature usage, habit formation, churn patterns"
   - name: "Asana"
     reason: "Prioritize friction points to address based on behavioral impact"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

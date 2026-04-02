@@ -2,6 +2,12 @@
 name: "Write Product Requirements Doc"
 description: "Create a comprehensive Product Requirements Document — problem, objectives, market segments, value propositions, solution spec, and release plan — from research, conversations, and product context. Trigger on: PRD, product requirements, feature spec, requirements document, product spec, write a PRD, product brief, feature brief."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

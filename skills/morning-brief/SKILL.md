@@ -13,6 +13,12 @@ connectors:
     reason: "Surface recent emails from top accounts and unread priority messages from prospects/customers"
   - name: "Slack"
     reason: "Deliver briefing to sales team Slack channel each morning for async visibility"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

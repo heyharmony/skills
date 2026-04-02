@@ -11,6 +11,12 @@ connectors:
     reason: "Real-time alerts when leads meet activation criteria; sales team coordination"
   - name: "Google Drive"
     reason: "Stores playbooks, call scripts, and sales enablement resources"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

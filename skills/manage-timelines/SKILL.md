@@ -13,6 +13,12 @@ connectors:
     reason: "Surfaces delays and blockers mentioned in real-time discussions before they formally impact the timeline"
   - name: "Google Calendar"
     reason: "Identifies vacation, all-hands meetings, and other calendar events that reduce available capacity during the timeline"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

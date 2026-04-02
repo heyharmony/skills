@@ -11,6 +11,12 @@ connectors:
     reason: "Post coaching recommendations and methodology adherence scores to rep channels; create accountability via team visibility"
   - name: "Google Calendar"
     reason: "Map upcoming customer calls so coaching can be applied in real time (prep before calls, debrief after)"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

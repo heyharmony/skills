@@ -2,6 +2,12 @@
 name: "Build Board Deck"
 description: "Assemble a board-ready presentation from executive meetings, pipeline reviews, and team updates — 7-slide narrative structure with metrics, customer evidence, and asks. Tells a story, not just shows data. Trigger on: board deck, board meeting, board presentation, investor update, board report, quarterly board review, board materials, board pack."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -14,6 +14,12 @@ connectors:
     reason: "Reference documentation, FAQ databases, content guidelines"
 connectorOptional: true
 frequency: "on-demand"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

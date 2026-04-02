@@ -11,6 +11,12 @@ connectors:
     reason: "Reference impact reports, projects shipped, and metrics you've influenced"
   - name: "Notion"
     reason: "Build an evidence bank of accomplishments and feedback to reference when doubt strikes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 ## Purpose

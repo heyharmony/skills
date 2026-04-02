@@ -11,6 +11,12 @@ connectors:
     reason: "Pull sprint data, bug trends, and blocked tickets for process analysis"
   - name: "Notion"
     reason: "Reference existing process docs and past improvement initiatives"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Productivity"
 ---
 
 ## Purpose

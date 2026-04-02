@@ -13,6 +13,12 @@ connectors:
     reason: "Reference check coordination, quick team feedback, final decision communication"
   - name: "Gmail"
     reason: "Reference follow-ups, feedback from interviewers, candidate communications"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

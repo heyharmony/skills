@@ -13,6 +13,12 @@ connectors:
     reason: "Tracks decisions that result in roadmap or org changes"
   - name: "GitHub"
     reason: "Records technical decisions (architecture, language choice, framework) in decision records or ADRs"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

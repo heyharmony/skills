@@ -11,6 +11,12 @@ connectors:
     reason: "Identify upcoming meetings where brainstorm output will be presented"
   - name: "Linear"
     reason: "Link brainstorm outcomes to existing project work and issues"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

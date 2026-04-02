@@ -13,6 +13,12 @@ connectors:
     reason: "Manage data labeling work, model improvement iterations, and feedback loop engineering"
   - name: "Google Drive"
     reason: "Collaborate on competitive analysis, use case documentation, and failure scenarios"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

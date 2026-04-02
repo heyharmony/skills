@@ -11,6 +11,12 @@ connectors:
     reason: "Surface team discussions about customer segments, persona definitions, and targeting decisions"
   - name: "Notion"
     reason: "Reference existing persona docs, ICP definitions, and customer research for segment alignment"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Craft Internal Narrative"
 description: "Synthesize leadership discussions into a coherent internal narrative — all-hands talking points, strategic context, FAQ for managers, and messaging cascade plan. Prevents mixed signals when strategy needs to reach every team. Trigger on: internal narrative, all-hands prep, company update, strategic narrative, internal comms, town hall prep, change announcement, leadership messaging, company story, messaging alignment."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

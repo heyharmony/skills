@@ -2,6 +2,12 @@
 name: "Summarize Research Findings"
 description: "Synthesize insights from user research sessions, customer interviews, and external reports into a structured brief with key themes, evidence quality ratings, and recommended next steps. Trigger on: research synthesis, interview findings, research summary, user research recap, study findings, research debrief, summarize interviews."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

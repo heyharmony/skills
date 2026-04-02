@@ -11,6 +11,12 @@ connectors:
     reason: "Reference privacy policies, data processing agreements, and compliance documentation"
   - name: "Slack"
     reason: "Surface legal team discussions about compliance requirements and policy updates"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

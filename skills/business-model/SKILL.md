@@ -2,6 +2,12 @@
 name: "Map Business Model Canvas"
 description: "Generate a Business Model Canvas with all 9 building blocks — partners, activities, resources, value propositions, relationships, channels, segments, costs, and revenue. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model. Trigger on: business model canvas, BMC, business model, how we make money, revenue model, value creation."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

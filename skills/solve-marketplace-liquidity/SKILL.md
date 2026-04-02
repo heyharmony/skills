@@ -11,6 +11,12 @@ connectors:
     reason: "Real-time liquidity ratio tracking (successful matches vs. total requests)"
   - name: "Slack"
     reason: "Operational alerts when liquidity metrics drop below threshold"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

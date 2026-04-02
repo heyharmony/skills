@@ -1,6 +1,12 @@
 ---
 name: "Deep-Research Any Topic"
 description: "Deep-research any topic and produce a structured report — from a quick 1-page overview to a 10+ page deep dive you can reference and share. Standalone research not tied to a specific meeting. Trigger on: research this topic, deep dive on, what's the full picture on, put together research on, build me a report about, I need to understand."
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

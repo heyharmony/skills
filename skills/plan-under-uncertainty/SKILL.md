@@ -11,6 +11,12 @@ connectors:
     reason: "Strategy documents, business cases, and assumption statements. Provides the baseline of what you planned to do and why."
   - name: "Linear"
     reason: "Tracks features based on customer discovery and market feedback. Shows which planned features proved valuable versus which assumptions were wrong."
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

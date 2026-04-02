@@ -11,6 +11,12 @@ connectors:
     reason: "Store platform comparison reports and vendor evaluation matrices"
   - name: "HubSpot"
     reason: "Assess current HubSpot email usage to determine if migration is needed or if HubSpot Email suffices"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

@@ -9,6 +9,12 @@ connectors:
     reason: "Reference brand guidelines, positioning docs, and prior naming work"
   - name: "Google Drive"
     reason: "Store naming shortlists and domain research in shared brand folders"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

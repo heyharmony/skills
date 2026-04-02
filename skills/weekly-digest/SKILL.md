@@ -2,6 +2,12 @@
 name: "Compile Weekly Digest"
 description: "Compile a weekly summary of everything that happened across meetings and conversations — decisions, action items, risks, wins, and what's coming next. Trigger on: weekly digest, what happened this week, weekly summary, week recap, what did I miss this week, catch me up on the week."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Weekly Digest

@@ -11,6 +11,12 @@ connectors:
     reason: "Monitor sleep, exercise, and movement as foundation for energy management"
   - name: "Gmail"
     reason: "Identify which relationships and communication patterns drain emotional energy"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

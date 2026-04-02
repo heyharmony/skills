@@ -2,6 +2,12 @@
 name: "Analyze Financial Data"
 description: "Synthesize financial discussions from leadership meetings, board reviews, and investor calls into structured analysis — P&L review, cash flow, unit economics, and budget variance with the narrative context that explains the numbers. Trigger on: financial analysis, P&L review, cash flow, unit economics, budget variance, burn rate, financial review, revenue analysis, cost analysis, financial summary, runway analysis."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Extract feedback from managers and mentors on strengths and gaps"
   - name: "LinkedIn"
     reason: "Research roles, companies, and people who've made similar transitions"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 ## Purpose

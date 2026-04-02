@@ -2,6 +2,12 @@
 name: "Plan Product Launch"
 description: "Coordinate a phased product launch — pre-launch buzz, launch day execution, and 30-day momentum — using Owned/Rented/Borrowed channel strategy. Mines cross-functional meeting discussions to catch dropped commitments and align timelines. Trigger on: product launch, launch plan, launch strategy, go-live plan, feature launch, release strategy, launch checklist, Product Hunt launch, launch timeline."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

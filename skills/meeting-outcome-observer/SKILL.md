@@ -13,6 +13,12 @@ connectors:
     reason: "Tracks roadmap commitments, sprint goals, and strategic promises made in planning meetings vs. documented reality"
   - name: "HubSpot"
     reason: "Monitors sales pipeline promises — deal close dates, deliverable timelines, customer commitments — vs. actual progression"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

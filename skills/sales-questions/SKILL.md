@@ -2,6 +2,12 @@
 name: "Draft Discovery Questions"
 description: "Draft targeted discovery questions, objection responses, and outreach language tailored to prospect context, industry, and role — supporting SPIN, Challenger, and MEDDPICC. Trigger on: discovery questions, what should I ask, sales discovery, objection handling, prospect research, outreach planning, how to open the call."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

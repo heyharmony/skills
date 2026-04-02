@@ -13,6 +13,12 @@ connectors:
     reason: "Track launch tasks and blockers (content creation, design, integrations, product tweaks) with clear ownership"
   - name: "Notion"
     reason: "Centralize launch brief, timeline, messaging, and post-launch retrospective for team alignment"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

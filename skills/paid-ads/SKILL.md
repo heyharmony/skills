@@ -9,6 +9,12 @@ connectors:
   - Gmail
   - Google Drive
   - Salesforce
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Plan Paid Ad Campaigns

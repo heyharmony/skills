@@ -16,6 +16,12 @@ connectors:
     reason: "Create dev tickets for navigation updates and site restructure implementation"
   - name: "Jira"
     reason: "Track site architecture improvements and link to sprint planning"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Site Architecture Planner

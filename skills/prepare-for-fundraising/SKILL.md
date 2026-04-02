@@ -11,6 +11,12 @@ connectors:
     reason: "Manages investor outreach, updates, and term sheet communications"
   - name: "Google Calendar"
     reason: "Coordinates investor meetings and due diligence timelines"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Records post-mortem meeting for async review and clarity on what was discussed"
   - name: "Google Drive"
     reason: "Stores post-mortem document, facilitates collaborative editing and decision logging"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

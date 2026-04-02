@@ -2,6 +2,12 @@
 name: "Slack GIF Creator"
 description: "Create custom animated GIFs optimized for Slack and messaging platforms. Generate emoji reactions (128x128), message GIFs (480x480), celebratory animations, and visual responses. Trigger on: create a GIF, animated reaction, Slack emoji, celebration animation, custom sticker, GIF for Slack."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

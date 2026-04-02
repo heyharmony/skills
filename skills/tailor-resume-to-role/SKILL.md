@@ -11,6 +11,12 @@ connectors:
     reason: "Pull job posting emails and recruiter correspondence for context"
   - name: "LinkedIn"
     reason: "Reference profile data and endorsements for skills validation"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 # Purpose

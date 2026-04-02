@@ -2,6 +2,12 @@
 name: "Debrief Campaign Results"
 description: "Debrief campaign results — what worked, what didn't, and what to do next. Produce a structured post-campaign analysis with metrics, qualitative insights, and prioritized recommendations. Trigger on: campaign debrief, campaign results, how did the campaign do, post-campaign review, what worked, campaign performance, next campaign planning."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

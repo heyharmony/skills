@@ -13,6 +13,12 @@ connectors:
     reason: "Pull support conversations and customer feedback to identify patterns in the jobs customers are trying to accomplish"
   - name: "Google Drive"
     reason: "Reference user research documents and interview transcripts to enrich job analysis"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

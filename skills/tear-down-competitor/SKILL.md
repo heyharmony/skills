@@ -2,6 +2,12 @@
 name: "Tear Down Competitor"
 description: "Systematically evaluate competitor strengths, weaknesses, and positioning across 12 dimensions to inform product strategy. Trigger on: competitive mentions from sales calls, objection patterns, customer language about alternatives, win/loss analysis."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Coach My Communication"
 description: "Analyze your meetings to uncover communication patterns, behavioral habits, and growth opportunities. Identifies conflict avoidance, filler words, speaking ratios, listening quality, and facilitation style — with timestamped examples and concrete advice. Use when you want feedback on how you communicate, lead, or facilitate. Trigger on: communication patterns, how do I communicate, meeting feedback, speaking habits, filler words, conflict avoidance, am I a good listener, facilitation style, conversation analysis, communication coaching, improve my meetings."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

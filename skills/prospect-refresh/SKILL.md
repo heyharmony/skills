@@ -11,6 +11,12 @@ connectors:
     reason: "Surface opportunity history and contact status to identify stale relationships worth reconnecting"
   - name: "Gmail"
     reason: "Review email thread closure status and last communication to determine when to re-engage"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

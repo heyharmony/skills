@@ -2,6 +2,12 @@
 name: "Prep Next Meeting"
 description: "Prepare a brief for an upcoming meeting — attendee history, past decisions, open action items, unresolved topics, and suggested agenda — so you walk in fully prepared. Trigger on: prep me for my meeting, meeting prep, prepare for my call, brief me before my meeting, get ready for my meeting, what should I know before my call, meeting context."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

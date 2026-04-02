@@ -2,6 +2,12 @@
 name: "Evaluate Pricing Model"
 description: "Evaluate your pricing model using willingness-to-pay signals from sales calls, churn conversations, and expansion discussions — assess value metric fit, tier structure, and competitive positioning to find revenue leaks. Trigger on: pricing audit, pricing model, price increase, tier structure, value metric, willingness to pay, pricing review, competitive pricing, are we priced right."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

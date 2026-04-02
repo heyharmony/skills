@@ -2,6 +2,12 @@
 name: "Diagnose Org Health"
 description: "Assess organizational health by analyzing meeting patterns — decision velocity, topic recurrence, participation balance, cross-functional collaboration, and escalation frequency. Surfaces systemic issues that surveys miss. Trigger on: org health, team health, organizational assessment, team dynamics, decision velocity, meeting effectiveness, collaboration health, culture diagnostic, team sentiment, organizational diagnostic."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 # Diagnose Org Health

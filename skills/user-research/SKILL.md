@@ -2,6 +2,12 @@
 name: "Synthesize User Research"
 description: "Synthesize findings from multiple user research sessions — interviews, usability tests, surveys, call recordings — into a structured report with cross-session themes and prioritized recommendations. Trigger on: research synthesis, user research, interview findings, usability findings, research report, user insights, what did we learn from research."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Access account success stories, case study data, and deal stages to identify which wins are worth highlighting socially"
   - name: "Slack"
     reason: "Post content drafts to team channels for feedback and approval before publishing; track engagement on shared posts"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Identify mutual connections through meeting attendees; spot if anyone on your team has already met the target contact"
   - name: "Linear"
     reason: "Track prospect research tasks and prospect research workflows within project boards"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

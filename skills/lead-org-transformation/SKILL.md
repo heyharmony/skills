@@ -13,6 +13,12 @@ connectors:
     reason: "Documents transformation roadmap, tracks pilot team progress, stores playbooks and decision logs"
   - name: "Microsoft Teams"
     reason: "Alternative to Slack for tracking team adoption and sentiment"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Stores delegation context, ownership, and performance calibration"
   - name: "GitHub"
     reason: "Tracks code ownership and PR delegation patterns"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

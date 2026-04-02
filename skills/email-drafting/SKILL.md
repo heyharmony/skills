@@ -2,6 +2,12 @@
 name: "Draft Follow-Up Email"
 description: "Drafts a polished follow-up email from a Harmony conversation — matching tone, audience, and purpose, grounded in what was actually said. Trigger on: draft email, write email, follow-up email, send recap, email from meeting."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Productivity"
 ---
 
 ## Purpose

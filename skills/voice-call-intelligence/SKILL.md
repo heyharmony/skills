@@ -13,6 +13,12 @@ connectors:
     reason: "Maps call frequency and attendee patterns to surface relationship momentum shifts and escalation signals"
   - name: "Linear"
     reason: "Creates follow-up tasks from voice call insights: prospect follow-ups, objection research, coaching actions"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

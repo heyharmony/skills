@@ -11,6 +11,12 @@ connectors:
     reason: "Pull conversation history for narrative elements and audience feedback"
   - name: "Zoom"
     reason: "Review recording metadata and participant context for delivery insights"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

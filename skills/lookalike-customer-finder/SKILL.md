@@ -13,6 +13,12 @@ connectors:
     reason: "Maps customer engagement patterns (call frequency, escalation) to identify high-momentum vs. stalled deals"
   - name: "Linear"
     reason: "Tracks support tickets and feature requests to understand which customer types have highest satisfaction"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Customer Success"
 ---
 
 ## Purpose

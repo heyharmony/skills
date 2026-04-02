@@ -11,6 +11,12 @@ connectors:
     reason: "Reference conversation context and surface questions for clarity"
   - name: "Email"
     reason: "Understand what's being discussed and what clarity is missing"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

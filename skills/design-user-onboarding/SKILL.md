@@ -11,6 +11,12 @@ connectors:
     reason: "Watch how users actually navigate onboarding; identify unexpected friction points visually"
   - name: "Intercom"
     reason: "Target onboarding messages in-app; trigger tooltips and guides at moments when users need help"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

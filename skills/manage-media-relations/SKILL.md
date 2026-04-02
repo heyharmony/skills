@@ -11,6 +11,12 @@ connectors:
     reason: "Maintain journalist database with beat/publications, story coverage, and relationship history"
   - name: "Notion"
     reason: "Document crisis communication plans, media talking points, and executive media training notes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

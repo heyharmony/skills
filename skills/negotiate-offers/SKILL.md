@@ -11,6 +11,12 @@ connectors:
     reason: "Attach and reference offer documents in email negotiations; maintain negotiation thread"
   - name: "Slack"
     reason: "Get real-time feedback from advisors during negotiations (should I accept this counteroffer?)"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

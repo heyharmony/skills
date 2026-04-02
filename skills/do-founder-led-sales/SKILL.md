@@ -9,6 +9,12 @@ connectors:
     reason: "Log all customer conversations and buying signals to identify early sales motion patterns"
   - name: "Google Calendar"
     reason: "Schedule and prepare for founder-led sales calls with discovery frameworks and talk tracks"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Reveals code review culture, commit cadence, and collaboration norms"
   - name: "Google Drive"
     reason: "Surfaces shared documents, templates, and decision frameworks that shape behavior"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

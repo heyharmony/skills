@@ -7,6 +7,12 @@ connectors:
     reason: "Store comp plan documentation, quota assignments, and commission tracking for transparency"
   - name: "Salesforce"
     reason: "Integrate quota and actual revenue to calculate commissions and track ramp progress"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

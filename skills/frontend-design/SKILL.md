@@ -2,6 +2,12 @@
 name: "Frontend Design"
 description: "Build distinctive, production-grade web interfaces and landing pages with intentional design—custom typography, cohesive color themes, strategic animations, and unconventional composition. Trigger on: design a landing page, create a frontend, web interface design, design a website, UI design, interactive prototype, custom web design."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

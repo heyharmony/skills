@@ -9,6 +9,12 @@ connectors:
     reason: "Stores competitive analysis, market size research, and founder motivation notes"
   - name: "Slack"
     reason: "Captures idea discussions with co-founders, advisor feedback, and market signals"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

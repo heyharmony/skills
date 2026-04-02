@@ -2,6 +2,12 @@
 name: "Draft Value Prop Messages"
 description: "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Creates segment-specific statements that emphasize benefits and highlight capabilities. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages. Trigger on: value proposition statements, marketing copy, sales messaging, value statements, positioning copy, onboarding copy."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

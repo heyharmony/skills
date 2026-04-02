@@ -11,6 +11,12 @@ connectors:
     reason: "Measure lifecycle stage transitions and design win-back campaigns for at-risk or churned accounts"
   - name: "Intercom"
     reason: "Segment users for targeted re-engagement messaging based on engagement depth and last-seen data"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Customer Success"
 ---
 
 ## Purpose

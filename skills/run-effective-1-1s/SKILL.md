@@ -9,6 +9,12 @@ connectors:
     reason: "Surfaces recent messages and team dynamics"
   - name: "Notion"
     reason: "Stores 1:1 notes and career development tracking"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

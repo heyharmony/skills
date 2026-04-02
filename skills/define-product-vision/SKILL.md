@@ -11,6 +11,12 @@ connectors:
     reason: "Share vision drafts and gather async feedback from leadership and key stakeholders"
   - name: "Google Drive"
     reason: "Collaborate on vision mockups, competitive landscape docs, and future state prototypes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

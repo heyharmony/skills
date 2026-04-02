@@ -2,6 +2,12 @@
 name: "Build Ideal Customer Profile"
 description: "Build a data-backed ideal customer profile — demographics, behaviors, jobs to be done, pain points, and disqualification criteria — from customer conversations, research data, and usage patterns. Trigger on: ICP, ideal customer profile, target customer, customer segmentation, who to sell to, best-fit customer, customer persona, PMF survey analysis."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

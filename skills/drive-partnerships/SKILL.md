@@ -11,6 +11,12 @@ connectors:
     reason: "Store partnership agreements, integration roadmaps, and co-marketing materials"
   - name: "HubSpot"
     reason: "Manage partner portals and track partner-referred leads through the pipeline"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Pull previous calls with this account or similar companies to surface objections, competitive mentions, and buying signals from past conversations"
   - name: "Google Calendar"
     reason: "Confirm attendee details, map stakeholder relationships, and review calendar history to understand who's attended past calls"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

@@ -13,6 +13,12 @@ connectors:
     reason: "Review past meeting history and attendee patterns to understand who influences decisions and how often you've engaged"
   - name: "LinkedIn"
     reason: "Pull recent role changes, company news, and team composition to identify new buying triggers or personnel changes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

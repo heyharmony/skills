@@ -13,6 +13,12 @@ connectors:
     reason: "Simple goal tracking, metric updates, progress dashboard"
   - name: "Slack"
     reason: "Weekly goal updates via automated reminders; surfaces blockers"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

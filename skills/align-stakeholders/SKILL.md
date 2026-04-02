@@ -13,6 +13,12 @@ connectors:
     reason: "Understand stakeholder communication and concerns"
   - name: "Notion"
     reason: "Document stakeholder requirements and alignment strategies"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

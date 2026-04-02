@@ -2,6 +2,12 @@
 name: "Size Your Market"
 description: "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry. Trigger on: market sizing, TAM SAM SOM, addressable market, market opportunity, market entry."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Plan Content Strategy"
 description: "Build a content strategy grounded in customer conversations — content pillars, topic clusters, and editorial calendar drawn from real sales objections, customer questions, and competitive gaps. Trigger on: content strategy, content pillars, editorial calendar, topic clusters, content plan, blog strategy, content roadmap, SEO content plan."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

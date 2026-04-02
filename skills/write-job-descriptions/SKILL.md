@@ -13,6 +13,12 @@ connectors:
     reason: "Engineer roles can link to actual codebase, engineering standards, architecture decisions"
   - name: "HubSpot"
     reason: "Track which job descriptions attracted candidates who passed screening (iterate descriptions)"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

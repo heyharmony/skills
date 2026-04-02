@@ -11,6 +11,12 @@ connectors:
     reason: "Track sent emails and responses to measure cadence effectiveness and update engagement status"
   - name: "LinkedIn"
     reason: "Pull prospect title, company signals, recent activity, and mutual connections to inform personalization and timing"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

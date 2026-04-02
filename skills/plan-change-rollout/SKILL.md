@@ -2,6 +2,12 @@
 name: "Plan Change Rollout"
 description: "Design a people-centered change rollout — stakeholder mapping, resistance detection, communication plan, training design, and adoption tracking — grounded in how teams actually react to change in their meetings. Trigger on: change management, change rollout, process change, tool adoption, organizational change, new tool rollout, reorg plan, change communication, adoption plan, resistance management."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Shows work distribution, feature ownership, and cross-team dependencies"
   - name: "Google Calendar"
     reason: "Reveals meeting loads and coordination overhead by role and team"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

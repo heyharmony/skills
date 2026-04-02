@@ -13,6 +13,12 @@ connectors:
     reason: "First coding assignment, system architecture overview, key codebases and patterns"
   - name: "Google Drive"
     reason: "Onboarding documents, company context, strategy docs, values and philosophy reference"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

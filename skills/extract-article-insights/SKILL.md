@@ -9,6 +9,12 @@ connectors:
     reason: "Share article summaries to relevant team channels"
   - name: "Google Drive"
     reason: "Store article knowledge cards in shared research folders"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

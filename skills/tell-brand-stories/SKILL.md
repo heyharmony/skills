@@ -13,6 +13,12 @@ connectors:
     reason: "Centralize brand story assets, templates, and case study drafts for cross-team collaboration"
   - name: "HubSpot"
     reason: "Track which stories/narratives drive highest conversion in sales pipeline"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

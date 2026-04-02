@@ -2,6 +2,12 @@
 name: "List Open To-Dos"
 description: "List all your recent to-dos and commitments from across your meetings and conversations — what you owe, what others owe you, and what's overdue. Trigger on: my todos, my to-dos, what do I need to do, my tasks, my action items, what's on my plate, my commitments, what did I promise, what's overdue."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Productivity"
 ---
 
 ## Purpose

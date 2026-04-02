@@ -11,6 +11,12 @@ connectors:
     reason: "Push weekly/monthly revenue summaries and quota updates to sales leadership and team channels"
   - name: "Stripe"
     reason: "Pull actual revenue (captured vs. pipeline) to reconcile MRR/ARR across payment systems"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

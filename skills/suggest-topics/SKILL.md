@@ -2,6 +2,12 @@
 name: "Suggest Topics for Next Meeting"
 description: "Suggest prioritized agenda topics for your next meeting based on conversation history and open action items — flag blockers, overdue commitments, and deferred discussions. Trigger on: what should we discuss, meeting agenda, topic suggestions, what did we leave unresolved, what topics are we missing, suggest topics."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

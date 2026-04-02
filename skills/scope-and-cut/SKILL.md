@@ -9,6 +9,12 @@ connectors:
     reason: "Accesses product roadmap and prioritization frameworks to align cuts with strategy"
   - name: "Slack"
     reason: "Captures team discussions about scope disputes and shipping decisions for context"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

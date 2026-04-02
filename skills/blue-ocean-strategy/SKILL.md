@@ -13,6 +13,12 @@ connectors:
     reason: "Pull team discussions about competitive positioning and customer problems to find blue ocean opportunities"
   - name: "Google Drive"
     reason: "Reference existing competitive analyses and strategy docs to avoid duplicating work and maintain context"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

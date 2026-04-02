@@ -9,6 +9,12 @@ connectors:
     reason: "Reference quarterly goals, impact reports, and project documentation"
   - name: "Google Calendar"
     reason: "Timeline major projects and milestones when creating your impact narrative"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 ## Purpose

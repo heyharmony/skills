@@ -2,6 +2,12 @@
 name: "Log Key Decisions"
 description: "Extract and document decisions from meeting transcripts — who decided, what was decided, why, what alternatives were rejected, and who was present. Builds a searchable decision log that prevents revisiting settled questions. Trigger on: decision log, decision record, we decided, decision tracking, document decisions, ADR, decision journal, who decided, why did we decide, decision history."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 # Log Key Decisions

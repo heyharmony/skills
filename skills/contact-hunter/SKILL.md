@@ -11,6 +11,12 @@ connectors:
     reason: "Cross-reference found email addresses against your email history and past deals; identify patterns of who responds in similar companies"
   - name: "LinkedIn"
     reason: "Validate contact titles, reporting structure, and career history; find additional contacts through 'People Also Viewed' and degree connections"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

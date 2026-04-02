@@ -13,6 +13,12 @@ connectors:
     reason: "Captures team discussions about deals that indicate internal urgency or champion support"
   - name: "Google Calendar"
     reason: "Maps meeting frequency and attendee escalation to predict buying timeline acceleration"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

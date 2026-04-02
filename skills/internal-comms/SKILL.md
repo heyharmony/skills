@@ -2,6 +2,12 @@
 name: "Internal Communications"
 description: "Craft clear, engaging internal updates for your team and company—3P updates, newsletters, FAQs, status reports, leadership announcements. Trigger on: team update, company announcement, internal comms, write a newsletter, team sync update, status report, leadership update..."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

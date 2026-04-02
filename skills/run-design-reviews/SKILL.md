@@ -11,6 +11,12 @@ connectors:
     reason: "Developer perspective on feasibility, technical constraints on design implementation"
   - name: "Zoom"
     reason: "Recorded design reviews for asynchronous feedback and pattern calibration across teams"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

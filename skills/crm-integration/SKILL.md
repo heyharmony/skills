@@ -9,6 +9,12 @@ connectors:
     reason: "Push Harmony conversation data (call summaries, action items, buying signals) into Salesforce opportunities and accounts"
   - name: "Slack"
     reason: "Confirm sync success and alert sales team when CRM data has been updated from Harmony insights"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

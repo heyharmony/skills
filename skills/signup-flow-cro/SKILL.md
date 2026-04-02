@@ -9,6 +9,12 @@ connectors:
   - Slack
   - Notion
   - Linear
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Optimize Signup Flow Conversions

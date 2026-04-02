@@ -11,6 +11,12 @@ connectors:
     reason: "Store ad screenshots and analysis in shared competitive intelligence folders"
   - name: "Notion"
     reason: "Update competitive wiki pages with latest ad intelligence findings"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

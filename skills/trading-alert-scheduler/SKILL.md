@@ -11,6 +11,12 @@ connectors:
     reason: "Surface past investment theses and position emails to extract price targets and rebalancing logic"
   - name: "Notion"
     reason: "Store investment thesis, target prices, and rebalancing rules so alerts pull from documented decision logic"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

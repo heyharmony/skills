@@ -11,6 +11,12 @@ connectors:
     reason: "Post pipeline health alerts and risk summaries to sales team channels for visibility on deals needing immediate attention"
   - name: "Google Calendar"
     reason: "Map customer meetings and touchpoints to understand deal momentum and engagement frequency"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

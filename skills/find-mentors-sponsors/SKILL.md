@@ -11,6 +11,12 @@ connectors:
     reason: "Identify patterns in who you learn from; schedule recurring mentor check-ins"
   - name: "Gmail"
     reason: "Extract feedback threads and recognition to identify potential sponsors and advocates"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Career"
 ---
 
 ## Purpose

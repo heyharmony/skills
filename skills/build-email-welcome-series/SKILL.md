@@ -11,6 +11,12 @@ connectors:
     reason: "Surface team discussions about brand voice, value propositions, customer onboarding priorities, and known conversion blockers"
   - name: "Notion"
     reason: "Reference brand guidelines, customer journey documentation, onboarding flows, and content calendars for consistency"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

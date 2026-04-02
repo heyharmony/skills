@@ -2,6 +2,12 @@
 name: "Generate Landing Page"
 description: "Generate conversion-optimized landing page copy and structure using customer language mined from sales calls and product feedback. Builds hero sections, social proof blocks, feature grids, and CTAs grounded in how customers actually describe their problems. Trigger on: landing page, sales page, product page, conversion page, lead capture page, squeeze page, landing page copy, hero section, above the fold."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

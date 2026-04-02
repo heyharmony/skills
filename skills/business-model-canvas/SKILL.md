@@ -13,6 +13,12 @@ connectors:
     reason: "Pull internal discussions about go-to-market strategy, partnerships, and customer feedback"
   - name: "Google Drive"
     reason: "Reference existing strategy docs, competitive analysis, and product roadmaps for context"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "Segment community members by customer tier; identify power users and advocates for recruitment"
   - name: "Google Analytics"
     reason: "Track community impact: referrals from community, member signup rate, retention of active members"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

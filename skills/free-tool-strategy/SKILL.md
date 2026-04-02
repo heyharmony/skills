@@ -9,6 +9,12 @@ connectors:
   - Linear: Track tool build tickets, prioritize MVP vs. phase 2 features, manage dev handoff
 role: Marketing
 action: Create
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

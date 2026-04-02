@@ -19,6 +19,12 @@ keywords:
   - pSEO
   - location pages
   - data-driven pages
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Programmatic SEO

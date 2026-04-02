@@ -14,6 +14,12 @@ connectors:
   - name: "Google Drive"
     purpose: "Access brand guidelines, existing ad creative, and performance reports"
 tags: ["advertising", "copywriting", "messaging", "seo-ppc", "conversion-optimization"]
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Generate Ad Creative

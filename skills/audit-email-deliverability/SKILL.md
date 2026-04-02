@@ -11,6 +11,12 @@ connectors:
     reason: "Surface team discussions about deliverability issues, customer complaints about missing emails"
   - name: "Google Drive"
     reason: "Store audit reports and track remediation progress over time"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

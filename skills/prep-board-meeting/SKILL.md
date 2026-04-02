@@ -2,6 +2,12 @@
 name: "Prep Board Meeting"
 description: "Prepare for board meetings by synthesizing weeks of internal discussions into a structured agenda, pre-read package, anticipated questions, and follow-up tracker from prior meetings. Catches the scattered threads that board members need to see. Trigger on: board meeting prep, board agenda, board pre-read, board preparation, upcoming board meeting, board discussion topics, board follow-up, board minutes."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

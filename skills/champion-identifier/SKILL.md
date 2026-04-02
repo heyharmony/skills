@@ -11,6 +11,12 @@ connectors:
     reason: "Post champion identification summary to deal channels so sales team has a shared view before next call"
   - name: "Linear"
     reason: "Create stakeholder research tasks for info gaps and track follow-up conversations needed"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

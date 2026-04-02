@@ -2,6 +2,12 @@
 name: "Set Up A/B Test"
 description: "Turn marketing hypotheses into statistically rigorous A/B test plans — sample size calculation, variant design, success metrics, and stopping rules. Catches 'we should test that' moments from team meetings and structures them into executable experiments. Trigger on: A/B test, split test, experiment setup, test hypothesis, conversion test, variant test, statistical significance, test plan, multivariate test."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -15,6 +15,12 @@ connectors:
     reason: "Review code review patterns and engineer engagement signals"
   - name: "Notion"
     reason: "Access shared documentation and collaboration agreements"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

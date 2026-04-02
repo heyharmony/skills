@@ -11,6 +11,12 @@ connectors:
     reason: "Share system diagrams, gather perspectives from different teams and stakeholders"
   - name: "Linear"
     reason: "Track second and third-order consequences of feature launches or organizational changes"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

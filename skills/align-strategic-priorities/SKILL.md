@@ -2,6 +2,12 @@
 name: "Align Strategic Priorities"
 description: "Detect strategic misalignment across teams by comparing stated company priorities against what people actually discuss, commit to, and work on in meetings. Surfaces where execution drifts from strategy before it shows up in results. Trigger on: strategic alignment, OKR review, priority alignment, cross-functional alignment, strategy execution gap, team priorities, alignment check, quarterly priorities, strategic planning."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Strategy"
 ---
 
 ## Purpose

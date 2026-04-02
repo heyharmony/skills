@@ -2,6 +2,12 @@
 name: "Facilitate Sprint Ceremonies"
 description: "Improve sprint ceremony effectiveness by analyzing patterns across standup, planning, review, and retrospective recordings. Surfaces recurring blockers, tracks retro action items, measures ceremony health, and suggests format improvements. Trigger on: sprint ceremonies, scrum ceremonies, standup effectiveness, sprint planning, sprint review, retrospective, retro action items, sprint health, ceremony improvement, agile ceremonies, daily standup."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 # Facilitate Sprint Ceremonies

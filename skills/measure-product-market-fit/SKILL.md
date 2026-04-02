@@ -11,6 +11,12 @@ connectors:
     reason: "Feature request volume and quality as proxy for user demand, tracked over time"
   - name: "Gmail"
     reason: "Customer feedback from conversations, churn feedback, unsubscribe reasons"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

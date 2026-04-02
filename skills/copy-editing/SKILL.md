@@ -8,6 +8,12 @@ connectors:
   - Gmail
   - Google Drive
   - Notion
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Edit Marketing Copy

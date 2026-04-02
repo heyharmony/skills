@@ -2,6 +2,12 @@
 name: "Build Go-to-Market Strategy"
 description: "Build a go-to-market strategy — channels, messaging, metrics, and launch timeline — grounded in customer conversations, discovery calls, and market research. Trigger on: GTM strategy, go-to-market plan, launch strategy, market entry plan, GTM playbook, product launch plan."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

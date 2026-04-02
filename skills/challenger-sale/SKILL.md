@@ -11,6 +11,12 @@ connectors:
     reason: "Pull team discussions about competitor moves, market shifts, and insights to enrich Challenger teaching framework"
   - name: "Google Drive"
     reason: "Reference industry research, competitive analysis, and customer data to ground Challenger insights"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

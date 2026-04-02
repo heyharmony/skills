@@ -11,6 +11,12 @@ connectors:
     reason: "Pull team discussions from retrospectives about past bugs, debugging patterns, or common failures in your codebase"
   - name: "Notion"
     reason: "Access architecture docs, data flow diagrams, and system boundaries to guide hypothesis formation"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Productivity"
 ---
 
 ## Purpose

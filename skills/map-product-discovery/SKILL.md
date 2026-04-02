@@ -2,6 +2,12 @@
 name: "Map Product Discovery"
 description: "Map structured product discovery — build Opportunity Solution Trees, validate customer problems, and prioritize opportunities from conversation data and assumption mapping. Trigger on: product discovery, opportunity solution tree, assumption mapping, customer research, discovery sprint, problem validation."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Document Co-Author"
 description: "Turn meeting discussions into polished documents through structured collaboration. Gather context, refine section-by-section, test comprehension. Trigger on: write a document, turn this into a doc, create a proposal, document our discussion, write a report, collaborative writing..."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

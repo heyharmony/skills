@@ -13,6 +13,12 @@ connectors:
     reason: "Captures technical rituals like sprint planning, retrospectives, and code review ceremonies"
   - name: "Linear"
     reason: "Tracks sprint rituals, planning ceremonies, and iteration cycles"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

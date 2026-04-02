@@ -19,6 +19,12 @@ connectors:
   - "Slack"
   - "HubSpot"
   - "Salesforce"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Leadership & Finance"
 ---
 
 ## Purpose

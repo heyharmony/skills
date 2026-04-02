@@ -11,6 +11,12 @@ connectors:
     reason: "Post sequence performance summaries weekly so the team can quickly see which angles and proof points are winning"
   - name: "Linear"
     reason: "Create tasks to test new angles and track which subject line variations outperform baselines"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Sales"
 ---
 
 ## Purpose

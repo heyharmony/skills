@@ -9,6 +9,12 @@ connectors:
   - slack
   - gmail
   - google_drive
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 # Page CRO Analyzer

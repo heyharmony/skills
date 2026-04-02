@@ -11,6 +11,12 @@ connectors:
     reason: "Surface customer success and sales discussions about churn reasons, customer feedback, and what would re-engage them"
   - name: "Gmail"
     reason: "Reference past win-back attempts and their performance to avoid repeating failed messaging or timing"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

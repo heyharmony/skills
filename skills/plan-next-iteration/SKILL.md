@@ -11,6 +11,12 @@ connectors:
     reason: "Pull customer feedback and support ticket themes that should inform the next build"
   - name: "Notion"
     reason: "Reference product roadmap docs and past iteration retrospectives"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

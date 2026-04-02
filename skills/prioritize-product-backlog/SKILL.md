@@ -2,6 +2,12 @@
 name: "Prioritize Product Backlog"
 description: "Turn stakeholder requests, customer feedback, and team discussions into a prioritized, sprint-ready backlog. Write INVEST-compliant user stories from meeting transcripts, score items using weighted business value and user impact, and plan sprint capacity. Trigger on: backlog grooming, sprint planning, user stories, story points, backlog prioritization, epic breakdown, acceptance criteria, sprint capacity, INVEST criteria."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

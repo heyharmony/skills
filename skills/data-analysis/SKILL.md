@@ -11,6 +11,12 @@ connectors:
     reason: "Pull customer success team comments and customer Slack channel activity to track engagement velocity and sentiment shifts"
   - name: "Notion"
     reason: "Reference account plans, success plans, and customer goals to measure progress and identify at-risk accounts"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Customer Success"
 ---
 
 ## Purpose

@@ -11,6 +11,12 @@ connectors:
     reason: "External task capture reduces mental burden, centralize work tracking"
   - name: "Notion"
     reason: "Weekly review and planning ritual documentation"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

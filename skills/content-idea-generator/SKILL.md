@@ -2,6 +2,12 @@
 name: "Brainstorm Content Ideas"
 description: "Brainstorm a prioritized pipeline of content ideas — blog posts, videos, webinars, case studies, and social content — grounded in customer conversations and market trends. Trigger on: content ideas, content brainstorm, what should we write about, content pipeline, blog ideas, thought leadership, content planning."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

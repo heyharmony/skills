@@ -9,6 +9,12 @@ connectors:
     reason: "Share design critiques and taste-building observations with the team; discuss why certain decisions work"
   - name: "Google Drive"
     reason: "Collaborate on product teardowns, comparative analysis, and design principle documentation"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

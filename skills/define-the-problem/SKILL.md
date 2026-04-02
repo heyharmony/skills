@@ -11,6 +11,12 @@ connectors:
     reason: "Capture customer feedback from sales and support channels; surface recurring pain themes from team conversations"
   - name: "Google Drive"
     reason: "Collaborate on problem documentation, impact scoring, and customer research synthesis"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

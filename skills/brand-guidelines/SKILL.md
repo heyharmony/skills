@@ -2,6 +2,12 @@
 name: "Brand Guidelines"
 description: "Apply your company's brand identity to any artifact—presentations, documents, reports. Covers colors, typography, design rules, logo usage, tone. Or create brand guidelines from scratch. Trigger on: apply brand, brand consistency, style guide, brand guidelines, match our brand, design system..."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

@@ -2,6 +2,12 @@
 name: "Draft Business Proposal"
 description: "Generate tailored business proposals using the prospect's own language from discovery calls, demos, and stakeholder meetings. Maps your solution to their stated problems, addresses objections raised in conversation, and structures pricing around their decision criteria. Trigger on: business proposal, sales proposal, RFP response, proposal draft, deal proposal, customer proposal, solution proposal, proposal template, write proposal, send proposal."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

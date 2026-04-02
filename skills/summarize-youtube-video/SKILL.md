@@ -9,6 +9,12 @@ connectors:
     reason: "Share video summaries with team members who don't have time to watch"
   - name: "Google Drive"
     reason: "Store video summaries in shared research or learning folders"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Marketing"
 ---
 
 ## Purpose

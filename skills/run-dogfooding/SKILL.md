@@ -11,6 +11,12 @@ connectors:
     reason: "Real-time dogfooding feedback channel and urgent issue escalation"
   - name: "Zoom"
     reason: "Recorded dogfooding sessions for asynchronous review and pattern detection"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

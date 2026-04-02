@@ -13,6 +13,12 @@ connectors:
     reason: "References shipping meetings and launch reviews to understand team alignment and confidence."
   - name: "Google Calendar"
     reason: "Identifies availability windows for launch and QA, catches conflicts that delay shipping."
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Product"
 ---
 
 ## Purpose

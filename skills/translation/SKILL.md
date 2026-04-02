@@ -2,6 +2,12 @@
 name: "Translate Meeting Transcript"
 description: "Translate meeting transcripts, summaries, or action items into a target language — preserve tone, structure, and speaker attribution. Trigger on: translate, translation, convert to Spanish, in French, translate transcript, translate this summary, meeting in another language."
 dependencies: []
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

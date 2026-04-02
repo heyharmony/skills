@@ -11,6 +11,12 @@ connectors:
     reason: "Find discussion threads that reference or extend document topics"
   - name: "Confluence"
     reason: "Pull wiki pages and knowledge base articles for cross-linking"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

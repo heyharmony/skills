@@ -11,6 +11,12 @@ connectors:
     reason: "Reference AI-generated code or documentation in PRs, code reviews that flag output quality issues, and commit messages explaining what worked"
   - name: "Linear"
     reason: "Track issues where users complain about AI output quality, feature requests for prompt improvements, and A/B tests of different prompt versions"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Communication"
 ---
 
 ## Purpose

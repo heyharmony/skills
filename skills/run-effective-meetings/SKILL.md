@@ -11,6 +11,12 @@ connectors:
     reason: "Captures ongoing discussion threads and decisions already made"
   - name: "Notion"
     reason: "Stores meeting templates, decision logs, and follow-up tracking"
+author: "Harmony"
+version: "1.0.0"
+icon: "sparkles"
+cover: ""
+screenshots: []
+category: "Operations"
 ---
 
 ## Purpose

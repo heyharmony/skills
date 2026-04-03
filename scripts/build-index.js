@@ -1,14 +1,24 @@
 #!/usr/bin/env node
 /**
- * Generates index.json from all SKILL.md files in the skills/ directory.
- * Parses YAML frontmatter and includes the full markdown body as "prompt".
+ * Generates index.json + individual {id}.json files from all SKILL.md files.
  *
- * When S3 credentials are available (CI), uploads images from icon/ and images/
- * folders to CDN and includes their URLs in the index.
+ * Image handling (when CDN env vars are set):
+ *   1. Scans icon/ and images/ folders in each skill
+ *   2. Uploads new images to the CDN bucket (public-media on R2)
+ *   3. Updates SKILL.md frontmatter with CDN URLs
  *
- * Run locally:  node scripts/build-index.js
- * Run in CI:    node scripts/build-index.js  (with AWS env vars set)
- * Output:       index.json at repo root
+ * Output:
+ *   - index.json        (all skills, for bulk fetch)
+ *   - dist/{id}.json    (per-skill, for individual fetch)
+ *
+ * CI uploads these to the internal-resources R2 bucket in a separate step.
+ *
+ * Environment variables (all optional — without them, images are skipped):
+ *   CDN_BUCKET       — CDN bucket name (e.g., "public-media")
+ *   CDN_BASE_URL     — Public CDN URL (e.g., "https://public-media.heyharmony.com")
+ *   CDN_ENDPOINT     — S3-compatible endpoint for CDN bucket
+ *   CDN_ACCESS_KEY   — Access key for CDN bucket
+ *   CDN_SECRET_KEY   — Secret key for CDN bucket
  */
 
 const fs = require('fs');
@@ -17,20 +27,17 @@ const { execSync } = require('child_process');
 
 const SKILLS_DIR = path.join(__dirname, '..', 'skills');
 const OUTPUT_PATH = path.join(__dirname, '..', 'index.json');
+const DIST_DIR = path.join(__dirname, '..', 'dist');
 const MARKER_FILE = 'SKILL.md';
-const ASSET_KIND = 'skills';
 
-// S3/CDN config from environment (set in GitHub Actions)
-const S3_BUCKET = process.env.AWS_S3_BUCKET_NAME || '';
-const S3_REGION = process.env.AWS_REGION || 'auto';
-const S3_ENDPOINT = process.env.AWS_ENDPOINT_URL || ''; // For R2/MinIO
+// CDN config for image uploads
+const CDN_BUCKET = process.env.CDN_BUCKET || '';
 const CDN_BASE_URL = (process.env.CDN_BASE_URL || '').replace(/\/$/, '');
-let S3_ENABLED = !!(S3_BUCKET && CDN_BASE_URL);
+const CDN_ENDPOINT = process.env.CDN_ENDPOINT || '';
+const CDN_ACCESS_KEY = process.env.CDN_ACCESS_KEY || '';
+const CDN_SECRET_KEY = process.env.CDN_SECRET_KEY || '';
+let CDN_ENABLED = !!(CDN_BUCKET && CDN_BASE_URL && CDN_ACCESS_KEY);
 
-// Build common AWS CLI flags
-const S3_FLAGS = `--bucket "${S3_BUCKET}" --region "${S3_REGION}"${S3_ENDPOINT ? ` --endpoint-url "${S3_ENDPOINT}"` : ''}`;
-
-// Image extensions to consider
 const IMAGE_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp']);
 
 // ---------------------------------------------------------------------------
@@ -39,7 +46,7 @@ const IMAGE_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.svg', '.web
 
 function parseFrontmatter(raw) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
-  if (!match) return { data: {}, content: raw };
+  if (!match) return { data: {}, content: raw, rawYaml: '' };
 
   const yamlBlock = match[1];
   const content = match[2];
@@ -103,7 +110,7 @@ function parseFrontmatter(raw) {
     data[currentKey] = currentArray;
   }
 
-  return { data, content };
+  return { data, content, rawYaml: yamlBlock };
 }
 
 function parseYamlValue(val) {
@@ -119,13 +126,15 @@ function parseYamlValue(val) {
 }
 
 // ---------------------------------------------------------------------------
-// S3 upload helpers (uses AWS CLI — available in GitHub Actions runners)
+// CDN image upload helpers (AWS CLI, works with R2)
 // ---------------------------------------------------------------------------
 
-function s3KeyExists(s3Key) {
+const CDN_FLAGS = CDN_ENDPOINT ? `--endpoint-url "${CDN_ENDPOINT}"` : '';
+
+function cdnKeyExists(key) {
   try {
     execSync(
-      `aws s3api head-object ${S3_FLAGS} --key "${s3Key}" 2>/dev/null`,
+      `AWS_ACCESS_KEY_ID="${CDN_ACCESS_KEY}" AWS_SECRET_ACCESS_KEY="${CDN_SECRET_KEY}" AWS_REGION=auto aws s3api head-object --bucket "${CDN_BUCKET}" --key "${key}" ${CDN_FLAGS} 2>/dev/null`,
       { stdio: 'pipe' },
     );
     return true;
@@ -134,101 +143,113 @@ function s3KeyExists(s3Key) {
   }
 }
 
-function uploadToS3(localPath, s3Key) {
-  const contentType = getContentType(localPath);
-  const endpointFlag = S3_ENDPOINT ? `--endpoint-url "${S3_ENDPOINT}"` : '';
+function uploadToCdn(localPath, key) {
+  const ext = path.extname(localPath).toLowerCase();
+  const types = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.webp': 'image/webp' };
+  const contentType = types[ext] || 'application/octet-stream';
   try {
     execSync(
-      `aws s3 cp "${localPath}" "s3://${S3_BUCKET}/${s3Key}" --region "${S3_REGION}" ${endpointFlag} --content-type "${contentType}" --cache-control "public, max-age=31536000, immutable"`,
+      `AWS_ACCESS_KEY_ID="${CDN_ACCESS_KEY}" AWS_SECRET_ACCESS_KEY="${CDN_SECRET_KEY}" AWS_REGION=auto aws s3 cp "${localPath}" "s3://${CDN_BUCKET}/${key}" ${CDN_FLAGS} --content-type "${contentType}" --cache-control "public, max-age=31536000, immutable"`,
       { stdio: 'pipe' },
     );
     return true;
   } catch (err) {
-    console.error(`  Failed to upload ${localPath}: ${err.message}`);
+    console.warn(`  Failed to upload ${localPath}: ${err.message}`);
     return false;
   }
 }
 
-function getContentType(filePath) {
-  const ext = path.extname(filePath).toLowerCase();
-  const types = {
-    '.png': 'image/png',
-    '.jpg': 'image/jpeg',
-    '.jpeg': 'image/jpeg',
-    '.gif': 'image/gif',
-    '.svg': 'image/svg+xml',
-    '.webp': 'image/webp',
-  };
-  return types[ext] || 'application/octet-stream';
-}
-
-function cdnUrl(s3Key) {
-  return `${CDN_BASE_URL}/${s3Key}`;
+function cdnUrl(key) {
+  return `${CDN_BASE_URL}/${key}`;
 }
 
 // ---------------------------------------------------------------------------
-// Image processing for a single skill folder
+// Process images for a skill, upload to CDN, return URLs
 // ---------------------------------------------------------------------------
 
 function processImages(folder) {
   const result = { icon: null, cover: null, screenshots: [] };
   const skillDir = path.join(SKILLS_DIR, folder);
 
-  // --- Icon ---
+  // Icon
   const iconDir = path.join(skillDir, 'icon');
   if (fs.existsSync(iconDir)) {
-    const iconFiles = fs.readdirSync(iconDir)
-      .filter((f) => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))
-      .sort();
-
-    if (iconFiles.length > 0) {
-      const localPath = path.join(iconDir, iconFiles[0]);
-      const s3Key = `marketplace/${ASSET_KIND}/${folder}/icon/${iconFiles[0]}`;
-
-      if (S3_ENABLED) {
-        if (!s3KeyExists(s3Key)) {
-          console.log(`  Uploading icon: ${iconFiles[0]}`);
-          uploadToS3(localPath, s3Key);
+    const files = fs.readdirSync(iconDir).filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase())).sort();
+    if (files.length > 0) {
+      const key = `marketplace/skills/${folder}/icon/${files[0]}`;
+      if (CDN_ENABLED) {
+        if (!cdnKeyExists(key)) {
+          console.log(`  Uploading icon: ${files[0]}`);
+          uploadToCdn(path.join(iconDir, files[0]), key);
         }
-        result.icon = cdnUrl(s3Key);
-      } else {
-        result.icon = `icon/${iconFiles[0]}`;
+        result.icon = cdnUrl(key);
       }
     }
   }
 
-  // --- Images (cover + screenshots) ---
+  // Images (cover + screenshots)
   const imagesDir = path.join(skillDir, 'images');
   if (fs.existsSync(imagesDir)) {
-    const imageFiles = fs.readdirSync(imagesDir)
-      .filter((f) => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))
-      .sort();
-
-    for (const file of imageFiles) {
-      const localPath = path.join(imagesDir, file);
-      const s3Key = `marketplace/${ASSET_KIND}/${folder}/images/${file}`;
+    const files = fs.readdirSync(imagesDir).filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase())).sort();
+    for (const file of files) {
+      const key = `marketplace/skills/${folder}/images/${file}`;
       const baseName = path.basename(file, path.extname(file)).toLowerCase();
 
-      let url;
-      if (S3_ENABLED) {
-        if (!s3KeyExists(s3Key)) {
+      if (CDN_ENABLED) {
+        if (!cdnKeyExists(key)) {
           console.log(`  Uploading image: ${file}`);
-          uploadToS3(localPath, s3Key);
+          uploadToCdn(path.join(imagesDir, file), key);
         }
-        url = cdnUrl(s3Key);
-      } else {
-        url = `images/${file}`;
-      }
-
-      if (baseName === 'cover') {
-        result.cover = url;
-      } else {
-        result.screenshots.push(url);
+        const url = cdnUrl(key);
+        if (baseName === 'cover') {
+          result.cover = url;
+        } else {
+          result.screenshots.push(url);
+        }
       }
     }
   }
 
   return result;
+}
+
+// ---------------------------------------------------------------------------
+// Update SKILL.md frontmatter with CDN URLs
+// ---------------------------------------------------------------------------
+
+function updateSkillMdWithUrls(folder, media) {
+  if (!media.icon && !media.cover && media.screenshots.length === 0) return;
+
+  const filePath = path.join(SKILLS_DIR, folder, MARKER_FILE);
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+  if (!match) return;
+
+  let yaml = match[1];
+  const body = match[2];
+
+  if (media.icon) {
+    yaml = yaml.replace(/^icon:.*$/m, `icon: "${media.icon}"`);
+    if (!/^icon:/m.test(yaml)) yaml += `\nicon: "${media.icon}"`;
+  }
+  if (media.cover) {
+    yaml = yaml.replace(/^cover:.*$/m, `cover: "${media.cover}"`);
+    if (!/^cover:/m.test(yaml)) yaml += `\ncover: "${media.cover}"`;
+  }
+  if (media.screenshots.length > 0) {
+    // Remove old screenshots block
+    yaml = yaml.replace(/^screenshots:.*$(\n\s+-.*$)*/m, '');
+    yaml = yaml.trimEnd();
+    yaml += '\nscreenshots:';
+    for (const url of media.screenshots) {
+      yaml += `\n  - "${url}"`;
+    }
+  }
+
+  const updated = `---\n${yaml}\n---\n${body}`;
+  if (updated !== raw) {
+    fs.writeFileSync(filePath, updated, 'utf-8');
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -241,19 +262,21 @@ function buildIndex() {
     process.exit(1);
   }
 
-  if (S3_ENABLED) {
-    // Verify S3 access before processing — if it fails, disable uploads and continue
+  // Verify CDN access
+  if (CDN_ENABLED) {
     try {
-      execSync(`aws s3api list-objects-v2 ${S3_FLAGS} --max-items 1 2>/dev/null`, { stdio: 'pipe' });
-      console.log(`S3 uploads enabled: bucket=${S3_BUCKET}, cdn=${CDN_BASE_URL}`);
+      execSync(
+        `AWS_ACCESS_KEY_ID="${CDN_ACCESS_KEY}" AWS_SECRET_ACCESS_KEY="${CDN_SECRET_KEY}" AWS_REGION=auto aws s3api list-objects-v2 --bucket "${CDN_BUCKET}" --max-items 1 ${CDN_FLAGS} 2>/dev/null`,
+        { stdio: 'pipe' },
+      );
+      console.log(`CDN uploads enabled: bucket=${CDN_BUCKET}, cdn=${CDN_BASE_URL}`);
     } catch {
-      console.warn('S3 access check failed — disabling image uploads. index.json will still be generated.');
-      S3_ENABLED = false;
+      console.warn('CDN access check failed — disabling image uploads.');
+      CDN_ENABLED = false;
     }
   }
-
-  if (!S3_ENABLED) {
-    console.log('S3 uploads disabled. Images will use local paths (or be omitted).');
+  if (!CDN_ENABLED) {
+    console.log('CDN uploads disabled. Images will be skipped.');
   }
 
   const folders = fs.readdirSync(SKILLS_DIR, { withFileTypes: true })
@@ -261,12 +284,22 @@ function buildIndex() {
     .map((d) => d.name)
     .sort();
 
+  // Prepare dist directory for individual JSONs
+  fs.mkdirSync(DIST_DIR, { recursive: true });
+
   const items = [];
 
   for (const folder of folders) {
     const markerPath = path.join(SKILLS_DIR, folder, MARKER_FILE);
     if (!fs.existsSync(markerPath)) continue;
 
+    // Process images first (may update SKILL.md)
+    const media = processImages(folder);
+    if (CDN_ENABLED) {
+      updateSkillMdWithUrls(folder, media);
+    }
+
+    // Re-read after potential update
     const raw = fs.readFileSync(markerPath, 'utf-8');
     const { data: fm, content: body } = parseFrontmatter(raw);
 
@@ -276,10 +309,7 @@ function buildIndex() {
       continue;
     }
 
-    // Process images from icon/ and images/ folders
-    const media = processImages(folder);
-
-    items.push({
+    const item = {
       id: folder,
       name,
       description: fm.description || '',
@@ -288,12 +318,24 @@ function buildIndex() {
       version: fm.version || null,
       icon: media.icon || fm.icon || null,
       cover: media.cover || fm.cover || null,
-      screenshots: media.screenshots.length > 0 ? media.screenshots : fm.screenshots || null,
+      screenshots: media.screenshots.length > 0
+        ? media.screenshots
+        : (fm.screenshots && fm.screenshots.length > 0 ? fm.screenshots : null),
       connectors: fm.connectors || null,
       prompt: body.trim(),
-    });
+    };
+
+    items.push(item);
+
+    // Write individual JSON
+    fs.writeFileSync(
+      path.join(DIST_DIR, `${folder}.json`),
+      JSON.stringify(item, null, 2),
+      'utf-8',
+    );
   }
 
+  // Write full index
   const index = {
     version: 1,
     generated_at: new Date().toISOString(),
@@ -302,7 +344,7 @@ function buildIndex() {
   };
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(index, null, 2), 'utf-8');
-  console.log(`Generated index.json: ${items.length} skills`);
+  console.log(`Generated index.json: ${items.length} skills, ${items.length} individual JSONs in dist/`);
 }
 
 buildIndex();
